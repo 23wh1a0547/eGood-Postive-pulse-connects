@@ -1,10 +1,33 @@
 # eGood Positive Pulse Connects
 
-A full-stack real-time communication platform built with Node.js, Express, Socket.IO, and MySQL.
+## 📝 Problem Statement
 
-## 📋 Project Overview
+### Current Situation
+Small businesses and individual professionals need an online platform to showcase their services, connect with potential customers, and facilitate real-time communication. Existing solutions are either too expensive or lack essential features like instant messaging.
 
-This is a web application that enables real-time messaging and user management. It includes user registration, login, business directory, and payment functionality.
+### What I Developed
+I built a web-based platform with the following features:
+- User registration with username, email, password, gender, and user type (user/investor/startup)
+- Login authentication with password hashing using bcrypt
+- Business directory where users can browse and connect with startups
+- Real-time chat functionality using Socket.IO for instant messaging
+- Payment processing page for transactions
+- Responsive UI with professional styling
+
+### Key Implementation Details
+- **Registration:** Users can register as User, Investor, or Startup. Startups can associate with their company.
+- **Login:** Secure authentication with bcrypt password hashing
+- **Real-time Messaging:** Socket.IO enables instant communication between users
+- **Chat Rooms:** Users can join company-specific chat rooms to communicate with startups
+
+### Deliverables Completed
+- ✅ Registration and login system with secure authentication
+- ✅ Business listing/directory page
+- ✅ Real-time messaging capability via Socket.IO
+- ✅ Payment processing page
+- ✅ Professional, responsive UI
+
+---
 
 ## 🛠️ Tech Stack
 
